@@ -4,7 +4,7 @@
 
 | Map Screen    |
 | ------------- |
-| <img src=""/> |
+| <img src="https://github.com/user-attachments/assets/8ae5bfe7-4c35-42ea-808d-09516696eb98"/> |
 
 ## Overview
 
