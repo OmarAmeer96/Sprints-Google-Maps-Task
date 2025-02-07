@@ -9,6 +9,7 @@ android {
     namespace = "com.example.sprints_google_maps"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
+    compileSdkVersion 34
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -28,7 +29,7 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
-        minSdkVersion 20
+        minSdkVersion flutter.minSdkVersion
     }
 
     buildTypes {

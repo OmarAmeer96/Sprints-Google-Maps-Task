@@ -2,25 +2,25 @@
 
 ## Screenshots
 
-| No Images State | Selecting Images State | Selected Images State |
-| --------------- | ---------------------- | --------------------- |
-| <img src="https://github.com/user-attachments/assets/9241fe40-a8a8-44b8-84fb-7282e90da674"/>   | <img src="https://github.com/user-attachments/assets/944f71ce-d0ba-4691-bc6b-a238bac646e2"/>          | <img src="https://github.com/user-attachments/assets/9d791c12-b6d6-44a3-a269-e61fda6f8f7b"/>         |
+| Map Screen    |
+| ------------- |
+| <img src=""/> |
 
 ## Overview
 
-This Flutter application allows users to read and write media files on their devices. It provides a modern and creative design to interact with the device's media storage. The app utilizes the `permission_handler` and `image_picker` packages to manage permissions and access media files.
+This Flutter application integrates Google Maps to provide location-based services. It allows users to view maps, search for places, and get directions. The app utilizes the `google_maps_flutter` package to embed Google Maps in the application.
 
 ## Features
 
-- **Cross-Platform Support:** Runs seamlessly on Android, iOS, Web, macOS, Linux, and Windows.
-- **Responsive Design:** Adapts to various screen sizes and orientations.
-- **Modern UI:** Implements a clean and intuitive user interface.
-- **Media Access:** Read and write images and videos from the device's storage.
+- **Cross-Platform Support:** Runs seamlessly on Android and iOS.
+- **Interactive Maps:** Provides interactive maps with zoom and pan capabilities.
+- **Place Search:** Allows users to search for places and view details.
+- **Directions:** Offers directions and route planning between locations.
 
 ## Dependencies
 
-- [permission_handler](https://pub.dev/packages/permission_handler): A Flutter plugin to handle permissions.
-- [image_picker](https://pub.dev/packages/image_picker): A Flutter plugin for selecting images and videos from the image library and taking new pictures and videos with the camera.
+- [google_maps_flutter](https://pub.dev/packages/google_maps_flutter): A Flutter plugin for integrating Google Maps in mobile applications.
+- [geolocator](https://pub.dev/packages/geolocator): A Flutter plugin for accessing geolocation and location-based services.
 
 ## Getting Started
 
@@ -28,7 +28,7 @@ This Flutter application allows users to read and write media files on their dev
 
    ```bash
    git clone https://github.com/OmarAmeer96/Sprints-Google-Maps-Task.git
-   cd media_access_app
+   cd sprints_google_maps
    ```
 
 2. **Install Dependencies:**
@@ -45,4 +45,4 @@ This Flutter application allows users to read and write media files on their dev
 
 ## Usage
 
-Upon launching the app, the main screen will allow users to read and write media files from their device's storage.
+Upon launching the app, the main screen will display a map centered on the user's current location. Users can search for places, view place details, and get directions to a selected location.
